@@ -47,8 +47,10 @@ The dataset used in this project consists of Netflix movies and TV shows with th
   - **netflix_clustering_results.csv** - Complete dataset with cluster assignments (4.1 MB)
   - **netflix_clustering_summary.csv** - Cluster summary statistics
   - **placeholder.md** - Placeholder file
+- **.gitignore** - Git ignore file for Python projects
 - **LICENSE** - MIT License
 - **README.md** - Project documentation
+- **requirements.txt** - Python package dependencies
 
 ## Methodology
 The clustering approach consists of multiple stages:
@@ -117,7 +119,7 @@ git clone https://github.com/desai-sashwat/netflix-clustering.git
 cd netflix-clustering
 
 # Install required packages
-pip install pandas numpy matplotlib seaborn scikit-learn
+pip install -r requirements.txt
 ```
 
 ### Running the Analysis
